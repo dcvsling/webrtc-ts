@@ -1,0 +1,19 @@
+{
+  "name": "js-template",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "start": "node .\\build\\serve.mjs"
+  },
+  "engines": {
+    "node": ">=10",
+    "pnpm": ">=3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.3",
+    "typescript": "^5.8.3"
+  }
+}
