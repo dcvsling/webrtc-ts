@@ -7,9 +7,9 @@
         "src\\index.ts"
     ],
     "outdir": "dist",
-    "mainFields": ["module"],
-    "target": ["es2020","chrome58","edge16","firefox57","node12","safari11"],
-    "globalName": "app",
+    "mainFields": ["browser", "main", "module"],
+    "target": ["es2020","chrome58","edge18","firefox57","node12","safari11"],
+    "globalName": "webrtcClient",
     "resolveExtensions": [".ts", ".js", ".json", ".html"],
     "minify": true,
     "treeShaking": true,
@@ -21,7 +21,6 @@
         ".svg": "text",
         ".json": "json",
         ".html": "file"
-    },
-    "logLevel": "verbose"
+    }
 
 }

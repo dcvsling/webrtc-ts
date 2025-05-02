@@ -1,19 +1,25 @@
 {
-  "name": "js-template",
+  "name": "webrtc-client",
   "version": "1.0.0",
   "description": "",
-  "license": "ISC",
+  "license": "MIT",
   "author": "",
   "type": "module",
   "scripts": {
-    "start": "node .\\build\\serve.mjs"
+    "start": "node .\\build\\serve.mjs",
+    "build": ""
   },
   "engines": {
     "node": ">=10",
     "pnpm": ">=3"
   },
   "devDependencies": {
+    "@types/qrcode": "^1.5.5",
     "esbuild": "^0.25.3",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "qr-scanner": "^1.4.2",
+    "qrcode": "^1.5.4"
   }
 }
