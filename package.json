@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "start": "node .\\build\\serve.mjs",
-    "build": "node .\\build\\build.mjs"
+    "build": "node build/build.mjs"
   },
   "engines": {
     "node": ">=10",
