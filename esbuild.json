@@ -4,7 +4,7 @@
     "tsconfig": "tsconfig.json",
     "platform": "browser",
     "entryPoints": [
-        "src\\index.ts"
+        "src/index.ts"
     ],
     "outdir": "dist",
     "mainFields": ["browser", "main", "module"],
